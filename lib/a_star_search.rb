@@ -60,8 +60,6 @@ until open_nodes.empty?
         open_nodes << successor
       end
     end
-
-    #closed_nodes << current_node
   end
   closed_nodes << current_node
 end
